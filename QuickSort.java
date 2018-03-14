@@ -1,4 +1,4 @@
-//Kyle Tau
+//Ricky Lin, Kyle Tau, Thet Htay Zaw
 //APCS2 pd2
 //HW18 -- QuickSort
 //2018-03-12
