@@ -58,6 +58,14 @@ public class QuickSort
 	    retArr[i] = (int)( maxVal * Math.random() );
 	return retArr;
     }
+
+    public static int[] buildArrayIntegral(int s) {
+	int[] retArr = new int[s];
+	for(int i = 0; i < retArr.length; i++ )
+	    retArr[i] = i;
+	return retArr;
+    }
+    
     //--------------^  HELPER METHODS  ^--------------
 
     public static int partition( int[] arr, int left, int right, int pvtPos)
