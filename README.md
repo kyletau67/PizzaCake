@@ -31,3 +31,4 @@ For every case, we start off with an array the size of 1, and continuing until t
 ![](https://github.com/kyletau67/PizzaCake/blob/master/bestCase.png) 
 
 ## Conclusions ##
+Our average case looks linear but it could also be interpreted as O(nlogn). Our worst case has a curve, which can be interpreted as O(nlogn) or O(n^2). Unexpectedly, it seems as our best case runtimes have a bigger curve than the worst case. Our test cases could have been made incorrectly, which would have caused this. Our average case does run the fastest according to the charts. 
