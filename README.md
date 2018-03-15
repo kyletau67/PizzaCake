@@ -3,7 +3,7 @@
 ###### Lab 01 -- What Does the Data Say? 
 ###### 3-15-18
 
-##Assessment of Big Oh Runtime Classification##
+## Assessment of Big Oh Runtime Classification ##
 The worst case scenario for QuickSort would have to be O(n^2). For this to happen, every time a partition happens, the pivot point reaches the rightmost or leftmost boundary/value, causing the array to be split very evenly. You are only essentially removing one value at a time in this case. Since partition runs through the entire array by itself, and the actual splitting is going through every single value, the runtime would have to be O(n^2). 
 
 For best case, the pivot would have to consistently reach the center/median value or close to it. This would result in an even splitting of the array and works similar to the splitting of mergesort. This act of spliting would have a run time of O(log n) and the act of partitioning would have a run time of O(n). Together, the best case should have a run time of O(nlogn). 
