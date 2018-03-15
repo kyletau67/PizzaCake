@@ -25,9 +25,9 @@ For every case, we start off with an array the size of 1, and continuing until t
 
 ## Results ## 
 
-!(https://github.com/kyletau67/PizzaCake/blob/master/avgCase.png) 
-!(https://github.com/kyletau67/PizzaCake/blob/master/worstDupCase.png)
-!(https://github.com/kyletau67/PizzaCake/blob/master/worstSortCase.png)
-!(https://github.com/kyletau67/PizzaCake/blob/master/bestCase.png) 
+![](https://github.com/kyletau67/PizzaCake/blob/master/avgCase.png) 
+![](https://github.com/kyletau67/PizzaCake/blob/master/worstDupCase.png)
+![](https://github.com/kyletau67/PizzaCake/blob/master/worstSortCase.png)
+![](https://github.com/kyletau67/PizzaCake/blob/master/bestCase.png) 
 
 ## Conclusions ##
