@@ -25,7 +25,7 @@ public class QuickSortTester{
 	  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 	//worst case 2: already sorted array
-	
+        /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	  for (int i = 1; i < 10000; i++) {
 	  int[] arr = QuickSort.buildArrayIntegral(i);
 	  double startTime = System.nanoTime();
@@ -33,7 +33,6 @@ public class QuickSortTester{
 	  double endTime = System.nanoTime();
 	  System.out.println(endTime - startTime);
 	  }
-	  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     }
 }
