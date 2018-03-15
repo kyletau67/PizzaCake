@@ -65,7 +65,8 @@ public class QuickSort
 	    retArr[i] = i;
 	return retArr;
     }
-    
+
+	
     //--------------^  HELPER METHODS  ^--------------
 
     public static int partition( int[] arr, int left, int right, int pvtPos)
@@ -102,11 +103,25 @@ public class QuickSort
 	    qsort(arr,pvtPos+1,right);
 	}
     }
+
+    public static void qsort1( int[] d )
+    {
+	qsort1(d,0,d.length - 1);
+    }
+
+    public static void qsort1(int[] arr, int left, int right)
+    {
+	if (left < right) {
+	    int pvtPos = partition(arr,left, right, (left + right) / 2);
+	    qsort(arr, left, pvtPos - 1);
+	    qsort(arr, pvtPos + 1, right);
+	}
+    }
     
     //main method for testing
     public static void main( String[] args )
     {
-	
+	/*
 	//get-it-up-and-running, static test case:
 	int [] arr1 = {7,1,5,12,3};
 	System.out.println("\narr1 init'd to: " );
@@ -157,6 +172,16 @@ public class QuickSort
 	qsort( arrMatey );
 	System.out.println("arrMatey after sort: " );
 	printArr(arrMatey);
+	*/
+
+	/*
+	int[] s = buildArrayIntegral(100);
+	printArr(s);
+	qsort1(s);
+	printArr(s); 
+	*/
+
+	
 
     }//end main
 
